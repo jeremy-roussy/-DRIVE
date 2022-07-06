@@ -27,7 +27,7 @@ html, body {
     align-items: center;
 }
 
-img {
+.background {
     position: absolute;
     top: 50%;
     transform: translateY(-59%);
@@ -139,7 +139,7 @@ img {
         background: #333;
     }
 
-    img, .container {
+    .background, .container {
         display: none;
     }
 
