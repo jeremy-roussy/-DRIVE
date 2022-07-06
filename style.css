@@ -139,7 +139,7 @@ img {
         background: #333;
     }
 
-    .container {
+    img, .container {
         display: none;
     }
 
