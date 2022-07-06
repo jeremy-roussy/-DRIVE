@@ -55,7 +55,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 500px;
+  font-size: 100vh;
   animation: scrollTxt 5s linear infinite;
   background-color: #000;
   
@@ -151,12 +151,5 @@ html, body {
 @media only screen and (orientation:landscape) {
     .avertissement {
         display: none;
-    }
-}
-
-@media only screen and (max-height: 525px) {
-    .text {
-        width: 100%;
-        font-size: 300px;
     }
 }
