@@ -29,10 +29,10 @@ html, body {
 
 img {
     position: absolute;
-    z-index: -1;
+    top: 50%;
+    transform: translateY(-59%);
     width: 100%;
-    max-height: auto;
-    transform: translateY(-100px);
+    z-index: -1;
 }
 
 .strip {
